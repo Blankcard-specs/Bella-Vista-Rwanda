@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-brand-green: #1B4332;
+  --color-brand-green-light: #2D6A4F;
+  --color-brand-green-dark: #081C15;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-light: #F3E5AB;
+  --color-brand-earth: #8B5A2B;
+  --color-brand-sand: #E6D5B8;
+  --color-brand-bg: #FAF9F6;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
